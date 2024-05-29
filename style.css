@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(4, 20, 34);
+    width:100%;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: inherit;
+    display: flex;
+    flex-direction: row;
+
+}
+header ul{
+    margin-inline-start: 600px;
+    height: 60px;
+    position: relative;
+top: -160px; 
+    
+
+}
+header ul li{
+    margin: 30px;
+    
+}
+
+img{
+    width: 160px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 34px;
+    color:rgb(35, 35, 72);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px
+}
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.presentacion{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(4, 8, 39);
+}
+.presentacion{
+    width: 70px;%;
+    display:flex;
+    font: size 30px;
+    padding:10px;
+    font-family: "Radio Canada Big", sans-serif;
+    }
+    #nosotros{
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+     }
+    #nosotros iframe{
+        padding: 10px;
+        margin: 30px;
+    }
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(158, 209, 238);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px
+    }
+
+    .caja img{
+        border-radius: 50%;
+    }
+.caja p{
+    font-size: 12px;
+    
+}
+.link{
+    color: white;
+    text-decoration: none;
+    text-size-adjust: 120PX;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: rgb(2, 14, 14);
+    border-radius: 10px;
+    
+   }
+.link:active{
+    text-decoration: none;
+    text-size-adjust: 120PX;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(137, 230, 230);
+    border-radius: 10px;
+      
+   }
+.cajitababosa{
+    background-color: color: ;
+    position: relative;
+top: 100px; 
+}
